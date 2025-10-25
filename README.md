@@ -31,4 +31,4 @@ npm run build
 
 ## 🌟 Credits
 
-This project was created with ❤️ by Httpsashu404 <a href="https://httpsashu404.netlify.app/"><b>Live Demo</b></a>.
+This project was created with ❤️ by Httpsashu404 <a href="https://httpsashu.netlify.app/"><b>Live Demo</b></a>.
