@@ -1,6 +1,6 @@
 ## Live Demo
 
-<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/1799eb35-d1fb-453a-ba7e-bf9ef92e5476" />
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/4e1f422d-a3cf-4410-aa85-40cbfeb7fdff" />
 
 ## 🧑‍💻 How to Use
 
