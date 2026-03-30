@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#050414] bg-opacity-50 border-top text-white py-8">
+    <footer className="bg-transparent border-top text-white py-8">
       <div className="container mx-auto text-center">
         {/* Navigation Links - Responsive */}
         <nav className="flex flex-wrap justify-center border-right space-x-4 sm:space-x-6 mt-4">

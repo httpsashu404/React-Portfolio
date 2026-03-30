@@ -66,7 +66,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="bg-[#050414] bg-opacity-50 mt-8 w-full max-w-md bg-tranparent p-6 rounded-lg shadow-lg border-1 border-[#00ff88]">
+      <div className="bg-transparent w-full max-w-md bg-tranparent p-6 rounded-lg shadow-lg border-1 border-[#00ff88]">
         <h3 className="text-xl font-semibold text-white text-center">
           Get In Touch <span className="ml-1">🚀</span>
         </h3>

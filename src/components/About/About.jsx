@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#050414] bg-opacity-50 py-4 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans"
+      className="bg-transparent py-4 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}

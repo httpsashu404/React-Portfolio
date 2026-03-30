@@ -62,7 +62,7 @@ const Services = () => {
               key={index}
               className="flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4"
             >
-              <div className="bg-[#050414] bg-opacity-50 border-1 border-[#00ff88] p-8 rounded-xl shadow-md flex flex-col items-center hover:shadow-green-500/50 hover:-translate-y-2 transition-transform duration-300">
+              <div className="bg-transparent border-1 border-[#00ff88] p-8 rounded-xl shadow-md flex flex-col items-center hover:shadow-green-500/50 hover:-translate-y-2 transition-transform duration-300">
                 <img
                   src={service.icon}
                   alt={service.title}

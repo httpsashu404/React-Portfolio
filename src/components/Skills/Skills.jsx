@@ -22,7 +22,7 @@ const Skills = () => (
       {SkillsInfo.map((category) => (
         <div
           key={category.title}
-          className="bg-[#050414] bg-opacity-50 px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border-1 border-[#00ff88]"
+          className="bg-transparent px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border-1 border-[#00ff88]"
         >
           <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
             {category.title}
@@ -42,7 +42,7 @@ const Skills = () => (
               {category.skills.map((skill) => (
                 <div
                   key={skill.name}
-                  className="flex items-center justify-center space-x-2 bg-transparent border-1 border-[#00ff88] rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
+                  className="flex items-center justify-center space-x-2 bg-transparent border-1 border-gray rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
                 >
                   <img
                     src={skill.logo}

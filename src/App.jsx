@@ -8,13 +8,14 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTopButton from "./ScrollToTop";
+import CodeBackground from "./components/CodeBackground";
 import StarBackground from "./components/StarBackground";
 
 const App = () => {
   return (
     <div className="bg-[#050414]">
       <div className="relative">
-        <StarBackground count={150} /> {/* 150 stars */}
+        <CodeBackground />
       </div>
       <ScrollToTopButton />
       <div className="relative pt-20">
