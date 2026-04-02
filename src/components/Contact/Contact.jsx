@@ -12,10 +12,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_id", // Replace with your EmailJS Service ID
-        "template_id", // Replace with your EmailJS Template ID
+        "service_key", // Replace with your EmailJS Service ID
+        "template_key", // Replace with your EmailJS Template ID
         form.current,
-        "public_id", // Replace with your EmailJS Public Key
+        "public_key", // Replace with your EmailJS Public Key
       )
       .then(
         () => {
@@ -79,27 +79,27 @@ const Contact = () => {
           <input
             type="email"
             name="email"
-            placeholder="ashutoshkumar@example.com"
+            placeholder="Your email*"
             required
             className="w-full p-3 rounded-md bg-transparent text-[#ffc400] border-1 border-[#00ff88] focus:outline-none focus:border-purple-500"
           />
           <input
             type="text"
             name="name"
-            placeholder="Ashutosh Kumar"
+            placeholder="Your name*"
             required
             className="w-full p-3 rounded-md bg-transparent text-[#ffc400] border-1 border-[#00ff88] focus:outline-none focus:border-purple-500"
           />
           <input
             type="text"
             name="subject"
-            placeholder="What is this regarding?"
+            placeholder="Subject*"
             required
             className="w-full p-3 rounded-md bg-transparent text-[#ffc400] border-1 border-[#00ff88] focus:outline-none focus:border-purple-500"
           />
           <textarea
             name="message"
-            placeholder="Put your message here..."
+            placeholder="Your message here..."
             rows="4"
             required
             className="w-full p-3 rounded-md bg-transparent text-gray-400 border-1 border-[#00ff88] focus:outline-none focus:border-purple-500"
