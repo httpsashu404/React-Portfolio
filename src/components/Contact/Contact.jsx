@@ -28,9 +28,9 @@ const Contact = () => {
 
     // ✅ mailto link
     const mailtoLink = `mailto:ashutoshkumarhtnn20@gmail.com?subject=${encodeURIComponent(
-      subject
+      subject,
     )}&body=${encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
     )}`;
 
     window.location.href = mailtoLink;
@@ -38,7 +38,7 @@ const Contact = () => {
     setIsSent(true);
     form.current.reset();
 
-    toast.success("Opening your email client... 📧", {
+    toast.success("Message sent successfully! 📨", {
       position: "top-right",
       autoClose: 3000,
       theme: "dark",
