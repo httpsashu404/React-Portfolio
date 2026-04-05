@@ -1,4 +1,5 @@
 // Services Section Logo's
+import AI from './assets/service_logo/AI.png';
 import WAD from './assets/service_logo/WAD.png';
 import UIUX from './assets/service_logo/UIUX.png';
 import API from './assets/service_logo/API.png';
@@ -63,9 +64,19 @@ import SarkariR from './assets/work_logo/Sarkari.jpg'
 // Services
 export const services = [
 
-  // Web Application Development
+  // AI based Development
   {
     id: 0,
+    icon: AI,
+    title: "AI Based Projects",
+    description:
+    "Creating smart AI-driven applications including chatbots, automation systems, and intelligent web solutions to solve real-world problems efficiently."
+
+  },
+
+  // Web Application Development
+  {
+    id: 1,
     icon: WAD,
     title: "Web Application Development",
     description:
@@ -74,7 +85,7 @@ export const services = [
 
   // Responsive UI/UX
   {
-    id: 1,
+    id: 2,
     icon: UIUX,
     title: "Responsive UI/UX Design",
     description:
@@ -83,7 +94,7 @@ export const services = [
 
   // API Integration
   {
-    id: 2,
+    id: 3,
     icon: API,
     title: "API Integration & Backend",
     description:
@@ -92,7 +103,7 @@ export const services = [
 
   // Custom Solution
   {
-    id: 3,
+    id: 4,
     icon: CWD,
     title: "Custom Web Solutions",
     description:

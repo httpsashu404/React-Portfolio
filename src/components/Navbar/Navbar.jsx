@@ -107,26 +107,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Social Icons */}
-        <div className="hidden md:flex space-x-4">
-          <a
-            href="https://github.com/httpsashu404"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#ffc400] hover:text-[#ff2255]"
-          >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ashutosh-kumar-0b03472ba/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#ffc400] hover:text-[#ff2255]"
-          >
-            <FaLinkedin size={24} />
-          </a>
-        </div>
-
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
           {isOpen ? (
@@ -159,24 +139,6 @@ const Navbar = () => {
                 </button>
               </li>
             ))}
-            <div className="flex space-x-4">
-              <a
-                href="https://github.com/httpsashu404"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#ffc400] hover:text-[#ff2255]"
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ashutosh-kumar-0b03472ba/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#ffc400] hover:text-[#ff2255]"
-              >
-                <FaLinkedin size={24} />
-              </a>
-            </div>
           </ul>
         </div>
       )}

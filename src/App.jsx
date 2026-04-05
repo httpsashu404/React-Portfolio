@@ -8,8 +8,8 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToTopButton from "./ScrollToTop";
+import FloatingMenu from "./Floating";
 import CodeBackground from "./components/CodeBackground";
-import StarBackground from "./components/StarBackground";
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
       <div className="relative">
         <CodeBackground />
       </div>
+      <FloatingMenu />
       <ScrollToTopButton />
       <div className="relative pt-20">
         <Navbar />
