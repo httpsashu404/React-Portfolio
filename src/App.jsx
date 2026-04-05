@@ -7,8 +7,8 @@ import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import ScrollToTopButton from "./ScrollToTop";
-import FloatingMenu from "./Floating";
+import ScrollToTopButton from "./components/ScrollToTop";
+import FloatingMenu from "./components/Floating";
 import CodeBackground from "./components/CodeBackground";
 
 const App = () => {

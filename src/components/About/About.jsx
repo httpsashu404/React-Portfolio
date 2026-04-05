@@ -1,6 +1,6 @@
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from "react-parallax-tilt";
-import profileImage from "../../assets/profile.png";
+import profileImage from "../../assets/photo.png";
 
 const About = () => {
   const handleScroll = (sectionId) => {
