@@ -15,7 +15,7 @@ import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
-import MongoDBLogo from './assets/tech_logo/MongoDB.png';
+import MongoDBLogo from './assets/tech_logo/mongodb.png';
 import cLogo from './assets/tech_logo/c.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import phpLogo from './assets/tech_logo/php.png'
@@ -70,7 +70,7 @@ export const services = [
     icon: AI,
     title: "AI Based Projects",
     description:
-    "Creating smart AI-driven applications including chatbots, automation systems, and intelligent web solutions to solve real-world problems efficiently."
+      "Creating smart AI-driven applications including chatbots, automation systems, and intelligent web solutions to solve real-world problems efficiently."
 
   },
 
