@@ -5,7 +5,7 @@ import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
-import Contact from "./components/Contact/Contact";
+import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer/Footer";
 import ScrollToTopButton from "./components/ScrollToTop";
 import FloatingMenu from "./components/Floating";
@@ -27,7 +27,7 @@ const App = () => {
         <Experience />
         <Work />
         <Education />
-        <Contact />
+        <Feedback />
         <Footer />
       </div>
     </div>

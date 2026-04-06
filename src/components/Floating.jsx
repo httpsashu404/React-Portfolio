@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { HiMenu, HiX } from "react-icons/hi";
+import { FaWhatsapp, FaLinkedinIn, FaGithub, FaRegCommentDots } from "react-icons/fa";
+import { HiX } from "react-icons/hi";
 
 const FloatingMenu = () => {
   const [open, setOpen] = useState(false);
@@ -41,17 +41,24 @@ const FloatingMenu = () => {
         </a>
       </div>
 
-      {/* Toggle Button */}
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-11 h-11 sm:w-12 sm:h-12 bg-[#00ff88] border-white border-2 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition duration-300"
-      >
-        {open ? (
-          <HiX className="text-black text-xl" />
-        ) : (
-          <HiMenu className="text-black text-xl" />
-        )}
-      </button>
+      {/* Toggle Button with Tooltip */}
+      <div className="relative group">
+        {/* Tooltip */}
+        <span className="absolute right-14 top-1/2 -translate-y-1/2 whitespace-nowrap bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+          Contact Us
+        </span>
+
+        <button
+          onClick={() => setOpen(!open)}
+          className="w-11 h-11 sm:w-12 sm:h-12 bg-[#00ff88] border-white border-2 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition duration-300"
+        >
+          {open ? (
+            <HiX className="text-black text-xl" />
+          ) : (
+            <FaRegCommentDots className="text-black text-xl" />
+          )}
+        </button>
+      </div>
     </div>
   );
 };

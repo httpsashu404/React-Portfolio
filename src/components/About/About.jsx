@@ -67,7 +67,7 @@ const About = () => {
                 boxShadow: "#00ff8866",
               }}
             >
-              {[{ name: "Contact", id: "contact" }].map((item, index) => (
+              {[{ name: "Feedback", id: "contact" }].map((item, index) => (
                 <button
                   key={index}
                   onClick={() => handleScroll(item.id)}
