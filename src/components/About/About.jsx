@@ -61,12 +61,11 @@ const About = () => {
           </h3>
 
           <p className="text-left sm:text-lg md:text-lg text-justify text-gray-400 mr-5 mt-8 leading-relaxed">
-            I am a Full Stack MERN Developer and run my own web development
-            services. I specialize in building modern, responsive, and scalable
-            web applications using the latest technologies. I also work on
-            AI-powered projects to deliver smart and innovative solutions. My
-            goal is to create clean, efficient, and impactful digital products
-            for clients.
+            I’m a Full Stack MERN Developer. I build modern, scalable, and high-performance
+            web applications using the latest MERN technologies. I also work on
+            AI-based projects to create smart and efficient digital solutions. I
+            handle all development work myself and focus on clean code,
+            performance, and user experience to deliver high-quality products.
           </p>
 
           {/* Buttons */}
