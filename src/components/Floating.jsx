@@ -1,5 +1,10 @@
-import React, { useState } from "react";
-import { FaWhatsapp, FaLinkedinIn, FaGithub, FaRegCommentDots } from "react-icons/fa";
+import  { useState } from "react";
+import {
+  FaWhatsapp,
+  FaLinkedinIn,
+  FaGithub,
+  FaRegCommentDots,
+} from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 
 const FloatingMenu = () => {
@@ -32,7 +37,6 @@ const FloatingMenu = () => {
             <FaLinkedinIn className="text-white text-lg" />
           </div>
         </a>
-
         {/* GitHub */}
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
           <div className="w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full border-2 border-white bg-black shadow-lg hover:scale-110 transition duration-300">
