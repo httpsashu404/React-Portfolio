@@ -50,13 +50,24 @@ const Skills = () => (
                   </div>
 
                   {/* Progress Bar */}
-                  <div className="w-full bg-gray-700 rounded-full h-1">
+                  {/* Progress Bar */}
+                  <div className="w-full bg-gray-700 rounded-full h-1 relative overflow-hidden">
+                    {/* Full Gradient Background (fixed 100%) */}
                     <div
-                      className="h-1 rounded-full"
+                      className="absolute top-0 left-0 w-full h-full"
                       style={{
-                        width: `${skill.level}%`,
                         background:
-                          "linear-gradient(to right, red, yellow, green)",
+                          "linear-gradient(to right, #ff0000, #f6ff00, #00ff22)",
+                      }}
+                    ></div>
+
+                    {/* Fill Mask (controls visibility) */}
+                    <div
+                      className="absolute top-0 left-0 h-full bg-gray-700"
+                      style={{
+                        width: `${100 - skill.level}%`,
+                        right: 0,
+                        left: "auto",
                       }}
                     ></div>
                   </div>

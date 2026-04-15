@@ -129,9 +129,9 @@ export const SkillsInfo = [
     ],
   },
 
-  // Tools & Technologies
+  // Tools
   {
-    title: "Tools & Technologies",
+    title: "Tools",
     skills: [
       { name: "Git", level: 85 },
       { name: "GitHub", level: 90 },
