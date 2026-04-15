@@ -3,29 +3,7 @@ import AI from './assets/service_logo/AI.png';
 import WAD from './assets/service_logo/WAD.png';
 import UIUX from './assets/service_logo/UIUX.png';
 import API from './assets/service_logo/API.png';
-import CWD from './assets/service_logo/CWD.png'
-
-// Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import MongoDBLogo from './assets/tech_logo/mongodb.png';
-import cLogo from './assets/tech_logo/c.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import phpLogo from './assets/tech_logo/php.png'
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import canvaLogo from './assets/tech_logo/Canva.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-
+import CWD from './assets/service_logo/CWD.png';
 
 // Experience Section Logo's
 import Freelance from './assets/company_logo/Freelance.png'
@@ -113,48 +91,66 @@ export const services = [
 
 // Skills
 export const SkillsInfo = [
-  // FrontEnd import
+
+  // Frontend Development
   {
-    title: 'Frontend',
+    title: "Frontend",
     skills: [
-      { logo: htmlLogo },
-      { logo: cssLogo },
-      { logo: javascriptLogo },
-      { logo: reactjsLogo },
-      { logo: tailwindcssLogo },
-      { logo: bootstrapLogo },
+      { name: "HTML", level: 90 },
+      { name: "CSS", level: 85 },
+      { name: "JavaScript", level: 80 },
+      { name: "React.js", level: 85 },
+      { name: "Tailwind CSS", level: 90 },
+      { name: "Bootstrap", level: 85 },
     ],
   },
-  // BackEnd import
+
+  // Backend & Databases
   {
-    title: 'Backend',
+    title: "Backend",
     skills: [
-      { logo: nodejsLogo },
-      { logo: expressjsLogo },
-      { logo: mysqlLogo },
-      { logo: MongoDBLogo },
+      { name: "Node.js", level: 80 },
+      { name: "Express.js", level: 78 },
+      { name: "MongoDB", level: 75 },
+      { name: "MySQL", level: 70 },
+      { name: "REST API", level: 85 },
     ],
   },
-  // Language import
+
+  // Programming Languages & Data Structures
   {
-    title: 'Languages',
+    title: "Programming",
     skills: [
-      { logo: cLogo },
-      { logo: pythonLogo },
-      { logo: phpLogo },
+      { name: "JavaScript", level: 85 },
+      { name: "PHP", level: 40 },
+      { name: "C", level: 60 },
+      { name: "Python", level: 45 },
+      { name: "Data Structures", level: 70 },
     ],
   },
-  // Tools import
+
+  // Tools & Technologies
   {
-    title: 'Tools',
+    title: "Tools & Technologies",
     skills: [
-      { logo: gitLogo },
-      { logo: githubLogo },
-      { logo: vscodeLogo },
-      { logo: canvaLogo },
-      { logo: vercelLogo },
-      { logo: netlifyLogo },
-      // {logo: canva}
+      { name: "Git", level: 85 },
+      { name: "GitHub", level: 90 },
+      { name: "VS Code", level: 95 },
+      { name: "Canva", level: 80 },
+      { name: "Netlify", level: 90 },
+      { name: "Vercel", level: 75 },
+    ],
+  },
+
+  // Other Skills
+  {
+    title: "Other Skills",
+    skills: [
+      { name: "Problem Solving", level: 85 },
+      { name: "Voice Communication", level: 40 },
+      { name: "Chat Communication", level: 80 },
+      { name: "Teamwork", level: 82 },
+      { name: "Time Management", level: 78 },
     ],
   },
 ];

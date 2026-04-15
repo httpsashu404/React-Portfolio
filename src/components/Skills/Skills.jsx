@@ -24,13 +24,11 @@ const Skills = () => (
           key={category.title}
           className="bg-transparent px-6 sm:px-10 py-8 sm:py-6 mb-10 w-full sm:w-[48%] rounded-2xl border-1 border-[#00ff88]"
         >
-          <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-4 text-center">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-gray-400 mb-6 text-center">
             {category.title}
           </h3>
 
-          {/* Skill Items - 3 per row on larger screens */}
           <Tilt
-            key={category.title}
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
@@ -38,17 +36,30 @@ const Skills = () => (
             transitionSpeed={1000}
             gyroscope={true}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+            <div className="flex flex-col gap-2">
               {category.skills.map((skill) => (
-                <div
-                  key={skill.name}
-                  className="flex items-center justify-center space-x-2 bg-transparent border-1 border-gray rounded-3xl py-2 px-2 sm:py-2 sm:px-2 text-center"
-                >
-                  <img
-                    src={skill.logo}
-                    alt={`${skill.name} logo`}
-                    className="w-6 h-6 sm:w-8 sm:h-8"
-                  />
+                <div key={skill.name} className="w-full">
+                  {/* Skill Name + Percentage */}
+                  <div className="flex justify-between">
+                    <span className="text-gray-300 text-xs xs:text-base">
+                      {skill.name}
+                    </span>
+                    <span className="text-gray-400 text-xs">
+                      {skill.level}%
+                    </span>
+                  </div>
+
+                  {/* Progress Bar */}
+                  <div className="w-full bg-gray-700 rounded-full h-1">
+                    <div
+                      className="h-1 rounded-full"
+                      style={{
+                        width: `${skill.level}%`,
+                        background:
+                          "linear-gradient(to right, red, yellow, green)",
+                      }}
+                    ></div>
+                  </div>
                 </div>
               ))}
             </div>
