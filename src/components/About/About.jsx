@@ -39,7 +39,7 @@ const About = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-2 leading-tight">
             Ashutosh Kumar
           </h2>
 
@@ -74,7 +74,7 @@ const About = () => {
             {/* Resume Button */}
             <button
               onClick={handleResumeClick}
-              className="inline-block text-black py-2 px-6 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+              className="inline-block text-black py-2 px-6 rounded-full mt-3 text-lg font-bold transition duration-300 transform hover:scale-105"
               style={{
                 background: "#00ff88",
                 boxShadow: "#00ff8866",
@@ -85,7 +85,7 @@ const About = () => {
 
             {/* Feedback Button */}
             <div
-              className="outline-btn btn text-black py-2 px-6 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+              className="outline-btn btn text-black py-2 px-6 rounded-full mt-3 text-lg font-bold transition duration-300 transform hover:scale-105"
               style={{
                 background: "#00ff88",
                 boxShadow: "#00ff8866",
