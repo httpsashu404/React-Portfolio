@@ -39,7 +39,7 @@ const About = () => {
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
             Ashutosh Kumar
           </h2>
 
@@ -60,7 +60,7 @@ const About = () => {
             />
           </h3>
 
-          <p className="text-left sm:text-lg md:text-lg text-justify text-gray-400 mr-5 mt-8 leading-relaxed">
+          <p className="text-left sm:text-lg md:text-lg text-justify text-gray-400 mr-5 leading-relaxed">
             I'm specializing in building modern,
             scalable, and high-performance web applications. I create clean,
             responsive, and user-friendly websites using the latest
