@@ -28,14 +28,6 @@ const Skills = () => (
             {category.title}
           </h3>
 
-          <Tilt
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
             <div className="flex flex-col gap-2">
               {category.skills.map((skill) => (
                 <div key={skill.name} className="w-full">
@@ -57,7 +49,7 @@ const Skills = () => (
                       className="absolute top-0 left-0 w-full h-full"
                       style={{
                         background:
-                          "linear-gradient(to right, #ff0000, #f6ff00, #00ff22)",
+                          "linear-gradient(to right, #ff2255, #ffc400, #00ff88)",
                       }}
                     ></div>
 
@@ -74,7 +66,6 @@ const Skills = () => (
                 </div>
               ))}
             </div>
-          </Tilt>
         </div>
       ))}
     </div>
