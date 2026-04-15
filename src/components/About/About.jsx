@@ -113,6 +113,8 @@ const About = () => {
                   onChange={(e) => setInputPassword(e.target.value)}
                   className="border p-2 rounded w-full mb-3"
                   placeholder="Enter password"
+                  required
+                  autoFocus
                 />
                 <div className="flex gap-3 justify-center">
                   <button
