@@ -61,10 +61,12 @@ const About = () => {
           </h3>
 
           <p className="text-left sm:text-lg md:text-lg text-justify text-gray-400 mr-5 mt-8 leading-relaxed">
-            I'm Ashutosh Kumar from Bihar. As a passionate MERN Developer, I
-            specialize in building dynamic and scalable web applications. My
-            goal is to deliver efficient, high-quality website and impactful
-            digital experiences that meet users’ needs.
+            I am a Full Stack MERN Developer and run my own web development
+            services. I specialize in building modern, responsive, and scalable
+            web applications using the latest technologies. I also work on
+            AI-powered projects to deliver smart and innovative solutions. My
+            goal is to create clean, efficient, and impactful digital products
+            for clients.
           </p>
 
           {/* Buttons */}
@@ -103,7 +105,7 @@ const About = () => {
 
           {/* Password Modal */}
           {showPrompt && (
-            <div className="fixed inset-0 backdrop-blur-md bg-black/30 flex justify-center items-center z-50">
+            <div className="fixed inset-0 backdrop-blur-sm bg-black/30 flex justify-center items-center z-50">
               {" "}
               <div className="bg-white p-6 rounded-lg text-center">
                 <h3 className="text-xl font-bold mb-3">Enter Password 🔒</h3>
