@@ -58,7 +58,7 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="bg-[#050414] bg-opacity-50 py-24 pb-20 px-[10vw] md:px-[5vw] lg:px-[2vw] font-sans relative"
+      className="py-24 pb-20 px-[10vw] md:px-[5vw] lg:px-[2vw] font-sans relative"
     >
       {/* Section Title */}
       <div className="text-center mb-10">
