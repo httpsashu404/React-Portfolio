@@ -23,6 +23,7 @@ import IDBPS from './assets/education_logo/IDBPS.png'
 import High from './assets/education_logo/High.jpg'
 
 // Project Section Logo's
+import Dhaba from './assets/work_logo/Dhaba.png'
 import Colour from './assets/work_logo/ColorPre.jpg'
 import Ecommmrce from './assets/work_logo/Ecommerce.jpg'
 import Calculator from './assets/work_logo/calculator.jpg'
@@ -44,7 +45,7 @@ export const services = [
 
   // AI based Development
   {
-    id: 0,
+    id: 4,
     icon: AI,
     title: "AI Based Projects",
     description:
@@ -54,7 +55,7 @@ export const services = [
 
   // Web Application Development
   {
-    id: 1,
+    id: 3,
     icon: WAD,
     title: "Web Application Development",
     description:
@@ -72,7 +73,7 @@ export const services = [
 
   // API Integration
   {
-    id: 3,
+    id: 1,
     icon: API,
     title: "API Integration & Backend",
     description:
@@ -81,7 +82,7 @@ export const services = [
 
   // Custom Solution
   {
-    id: 4,
+    id: 0,
     icon: CWD,
     title: "Custom Web Solutions",
     description:
@@ -160,7 +161,7 @@ export const experiences = [
 
   // Freelancer Use
   {
-    id: 0,
+    id: 7,
     img: Freelance,
     role: "FullStack Developer",
     company: "Freelancer (Self-employed)",
@@ -180,7 +181,7 @@ export const experiences = [
   },
   // Intern Use
   {
-    id: 1,
+    id: 6,
     img: Intern,
     role: "Fullstack Development",
     company: "Internship Sudio (Remote)",
@@ -201,7 +202,7 @@ export const experiences = [
 
   // Orinson Use
   {
-    id: 2,
+    id: 5,
     img: Orinson,
     role: "Fullstack Development",
     company: "Orinson (Remote)",
@@ -220,7 +221,7 @@ export const experiences = [
 
   // Topper Use
   {
-    id: 3,
+    id: 4,
     img: Topper,
     role: "Web Development",
     company: "TopperWorld (Remote)",
@@ -239,7 +240,7 @@ export const experiences = [
 
   // CodSoft Use
   {
-    id: 4,
+    id: 3,
     img: Codsoft,
     role: "Web Development",
     company: "CodSoft (Remote)",
@@ -258,7 +259,7 @@ export const experiences = [
 
   // Bharat Use
   {
-    id: 5,
+    id: 2,
     img: Bharat,
     role: "Fullstack Development",
     company: "BharatIntern (Remote)",
@@ -278,7 +279,7 @@ export const experiences = [
 
   // Lava Use
   {
-    id: 6,
+    id: 1,
     img: Lava,
     role: "Mobile Manufacuring",
     company: "Lava International Ltd. (Onsite)",
@@ -293,7 +294,7 @@ export const experiences = [
 
   // PMKK Use
   {
-    id: 7,
+    id: 0,
     img: PMKK,
     role: "FTCP (Electronics)",
     company: "Rohtas-PMKK (Onsite)",
@@ -313,7 +314,7 @@ export const education = [
 
   // GCT Use
   {
-    id: 0,
+    id: 4,
     img: GCT,
     school: "GCT in Namakkal (Tamilnadu)",
     date: "Sep-Oct, 2023",
@@ -323,7 +324,7 @@ export const education = [
 
   // NIT Use
   {
-    id: 1,
+    id: 3,
     img: NIT,
     school: "NIMCET Prepration",
     date: "Sep-Jun, 2023",
@@ -345,7 +346,7 @@ export const education = [
 
   // IDBPS Use
   {
-    id: 3,
+    id: 1,
     img: IDBPS,
     school: "I.D.B.P.S College, Garhnokha",
     date: "2016-2018",
@@ -356,7 +357,7 @@ export const education = [
 
   // High Use
   {
-    id: 4,
+    id: 0,
     img: High,
     school: "U.M School, Hathini",
     date: "2015-2016",
@@ -369,9 +370,19 @@ export const education = [
 // Projects
 export const projects = [
 
+  // Rohtas Dhaba
+  {
+    id: 14,
+    title: "Resturant",
+    image: Dhaba,
+    tags: ["HTML", "CSS", "Tailwind", "JavaScript", "React.JS", "Node.js", "Express.Js", "Jwt", "APIs", "MongoDB"],
+    github: "https://github.com/httpsashu404/rohtas-dhaba",
+    webapp: "https://rohtasdhaba.netlify.app/",
+  },
+
   // color predicution
   {
-    id: 0,
+    id: 13,
     title: "Color Prediction Game",
     image: Colour,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -381,7 +392,7 @@ export const projects = [
 
   // e-commerce
   {
-    id: 1,
+    id: 12,
     title: "E-Commerce",
     image: Ecommmrce,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.JS", "Node.js", "Express.Js", "APIs", "MongoDB", "Razorpay"],
@@ -391,7 +402,7 @@ export const projects = [
 
   // React Calculator
   {
-    id: 2,
+    id: 11,
     title: "React Calculator",
     image: Calculator,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React JS"],
@@ -401,7 +412,7 @@ export const projects = [
 
   // Weather Forcast
   {
-    id: 3,
+    id: 10,
     title: "Weather Forcast",
     image: Weather,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "APIs"],
@@ -411,7 +422,7 @@ export const projects = [
 
   // Landing page
   {
-    id: 4,
+    id: 9,
     title: "Landing Page",
     image: Landing,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -421,7 +432,7 @@ export const projects = [
 
   // Expenses Tracker
   {
-    id: 5,
+    id: 8,
     title: "Expenses Tracker",
     image: Expenses,
     tags: ["HTML", "CSS", "JavaScript", "React.JS", "Node.js", "Express.Js", "APIs", "MongoDB"],
@@ -431,7 +442,7 @@ export const projects = [
 
   // Word Counter
   {
-    id: 6,
+    id: 7,
     title: "Word Counter",
     image: Counter,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "Bootstrap", "React JS"],
@@ -441,7 +452,7 @@ export const projects = [
 
   // Registraion Setup
   {
-    id: 7,
+    id: 6,
     title: "Registration Setup",
     image: Registration,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.JS", "Node.js", "Express.Js", "APIs", "MongoDB"],
@@ -451,7 +462,7 @@ export const projects = [
 
   // Image Resizer
   {
-    id: 8,
+    id: 5,
     title: "Image Resizer",
     image: Resizer,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.JS"],
@@ -461,7 +472,7 @@ export const projects = [
 
   // MERN CRUD Operation
   {
-    id: 9,
+    id: 4,
     title: "Simple CRUD System",
     image: CRUD,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.JS", "Node.js", "Express.Js", "APIs", "MongoDB"],
@@ -471,7 +482,7 @@ export const projects = [
 
   // PortFolio
   {
-    id: 10,
+    id: 3,
     title: "First Porfolio",
     image: Portfolio,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "React.JS"],
@@ -481,7 +492,7 @@ export const projects = [
 
   // Age Calculator page
   {
-    id: 11,
+    id: 2,
     title: "Age Calculator",
     image: AgeC,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -491,7 +502,7 @@ export const projects = [
 
   // Bootstrap Tutorials page
   {
-    id: 12,
+    id: 1,
     title: "Bootstrap Tutorials",
     image: BootsrapT,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -501,7 +512,7 @@ export const projects = [
 
   // Sarkari result page
   {
-    id: 13,
+    id: 0,
     title: "Sarkari Result",
     image: SarkariR,
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
